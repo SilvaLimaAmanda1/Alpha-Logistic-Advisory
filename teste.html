@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="teste.css">
+	<title>Menu e Logo fixo</title>
+</head>
+<body>
+	<header id="nav" class="fixed-header">
+		<img src="img/Alpha.png" alt="Logo da Alpha Logistc">
+			<a href="#Home" class="links">Home</a>
+			<a href="#Sobre-nós" class="links">Sobre nós</a>
+			<a href="#Trabalhamos" class="links">Trabalhamos</a>
+			<a href="#Socioambiental" class="links">Socioambiental</a>
+			<a href="#Ética" class="links">Ética</a>
+			<a href="#Contatos" class="links">Contatos</a>
+	</header>
+<div class="box">
+	<img src="img/img2.jpg">
+<h2>Responsabilidades:</h2>
+<p>A logística sustentável é, antes de tudo, uma demonstração de respeito pela natureza. Quando adotada por uma empresa, essa prática implementa ações que otimizam os recursos disponíveis. O resultado é a redução do desperdício de insumos e das emissões de gases poluentes na atmosfera.</p>
+</div>
+<div class="box2">
+	<img src="img/img1.png">
+<h2>Responsabilidades:</h2>
+<p>A logística sustentável é, antes de tudo, uma demonstração de respeito pela natureza. Quando adotada por uma empresa, essa prática implementa ações que otimizam os recursos disponíveis. O resultado é a redução do desperdício de insumos e das emissões de gases poluentes na atmosfera.</p>
+</div>
+
+
+	<script>
+		window.addEventListener('scroll', function() {
+            var header = document.getElementById('nav');
+            if (window.scrollY > 100) { // Adjust 100 to your desired threshold
+                header.classList.add('scroll-header');
+            } else {
+                header.classList.remove('scroll-header');
+            }
+        });
+	</script>
+</body>
+</html>
